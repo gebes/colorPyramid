@@ -34,18 +34,18 @@ public class ColorPyramidCalculator {
 
     private static char byteToChar(byte b) {
         switch (b) {
-            case 1 -> {
+            case 1:
                 return 'R';
-            }
-            case 2 -> {
+
+            case 2:
                 return 'G';
-            }
-            case 3 -> {
+
+            case 3:
                 return 'B';
-            }
-            default -> {
+
+            default:
                 throw new RuntimeException("This should not happen. Invalid code");
-            }
+
         }
     }
 

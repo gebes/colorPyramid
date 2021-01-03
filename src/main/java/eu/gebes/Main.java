@@ -36,7 +36,7 @@ public class Main {
         int base = 2;
         for (int i = 0; i < 15; i++) {
             System.out.println(base);
-            var input = randomInput(base);
+            String input = randomInput(base);
             if(base < 100000) { // We do not want to get a OutOfMemoryException
                 System.out.println(" SLOW: " + ColorPyramidCalculator.calculateUnoptimized(input));
                 System.out.println(" FAST: " + ColorPyramidCalculator.calculateSimpleOptimization(input));

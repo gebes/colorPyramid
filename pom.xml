@@ -8,7 +8,6 @@
     <artifactId>colorPyramid</artifactId>
     <version>1.0</version>
 
-
     <build>
         <plugins>
             <plugin>
@@ -16,21 +15,14 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
                 <configuration>
-                    <source>15</source>
-                    <target>15</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>central</id>
-            <name>Central Repository</name>
-            <url>http://central.maven.org/maven2</url>
-        </pluginRepository>
-    </pluginRepositories>
     <properties>
-        <maven.compiler.target>1.15</maven.compiler.target>
-        <maven.compiler.source>1.15</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
 </project>
