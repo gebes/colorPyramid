@@ -11,7 +11,7 @@ O(N) = N-1 * (N/2)
 
 ## The Problem itself
 
-You have an array of colors. Each color can be either **R**ed, **G**reen and **B**lue. Those are represented by the letters R, G and B or in the code by 1, 2 or 3.  
+You have an array of colours. Each colour can be either **R**ed, **G**reen and **B**lue. Those are represented by the letters R, G and B or in the code by 1, 2 or 3.  
 
 ```
 RGBG // INPUT
@@ -21,11 +21,11 @@ B // OUTPUT
 ```
 
 
-You mix every row until there is only one color left. This is the output.
+You mix every row until there is only one colour left which is the output.
 
-### Mixing two colors
+### Mixing two colours
 
-Are the two colors the same, then the mix of those is the same.
+Are the two colours the same, then the mix of those is the same.
 ```
 RR
 R
@@ -37,7 +37,7 @@ BB
 B
 ```
 
-Are the colors different, then the mix is the color which is missing.
+Are the colours different, then the mix is the colour which is missing.
 ```
 RG
 B
@@ -50,8 +50,8 @@ G
 ```
 
 ### Mixing rows
-Mix the first color with the second one. The second one with the third one. The third one with the...
-Do this until you mix the N-1'th and N'th color. Now you got a new row which is shorter by one.
+Mix the first colour with the second one. The second one with the third one. The third one with the fourth one and so on.
+Do this until you mix the N-1'th and N'th colour. Now you got a new row which is shorter by one.
 
 ```
 RGBG
