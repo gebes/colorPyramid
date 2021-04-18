@@ -6,7 +6,7 @@ This example is from the IOI. I summarized all the calculation methods I found i
 The complexity of this problem with no optimization is
 
 ```
-O(N) = N-1 * (N/2)
+O(N-1 * (N/2))
 ```
 
 ## The Problem itself
